@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Layout.css';
-import {TimeCharging} from "../components/TimeCharging";
+import {System} from "../components/System";
 const Layout = ({children}) => {
     return (
         <div className="container-mobile">
-            <TimeCharging />
+            <System />
             {children}
         </div>
     );

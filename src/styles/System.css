@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    position: absolute;
 }
 .icons-w-s-c {
     display: flex;
