@@ -1,9 +1,11 @@
 import React from 'react';
-
-const Layout = () => {
+import '../styles/Layout.css';
+import {TimeCharging} from "../components/TimeCharging";
+const Layout = ({children}) => {
     return (
-        <div>
-
+        <div className="container-mobile">
+            <TimeCharging />
+            {children}
         </div>
     );
 };

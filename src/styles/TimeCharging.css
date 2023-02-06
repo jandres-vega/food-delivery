@@ -1,0 +1,14 @@
+.container-time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.icons-w-s-c {
+    display: flex;
+    gap: 15px;
+    margin-right: 5px;
+}
+.container-time span {
+    margin-left: 5px;
+}

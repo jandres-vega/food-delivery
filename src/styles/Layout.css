@@ -1,0 +1,6 @@
+.container-mobile {
+    width: 350px;
+    height: 600px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
