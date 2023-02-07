@@ -4,6 +4,7 @@ import {Layout} from "../containers/Layout";
 import {LandingPage} from "../pages/LandingPage";
 import SlidePages from "../pages/SlidePages";
 import {imagesSlides} from '../utils/dataSliders';
+import LoginPhone from "../pages/LoginPhone";
 
 function App() {
   return (
@@ -35,9 +36,10 @@ function App() {
                            <SlidePages
                                image={imagesSlides[2].image}
                                text={imagesSlides[2].text}
-                               toText={imagesSlides[2].toText}
+                               toText="/login-phone"
                            />}
                 />
+                <Route exact path="/login-phone" element={<LoginPhone/>} />
             </Routes>
         </Layout>
     </BrowserRouter>
