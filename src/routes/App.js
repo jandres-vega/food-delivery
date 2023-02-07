@@ -5,6 +5,7 @@ import {LandingPage} from "../pages/LandingPage";
 import SlidePages from "../pages/SlidePages";
 import {imagesSlides} from '../utils/dataSliders';
 import LoginPhone from "../pages/LoginPhone";
+import {VerificationCodePhone} from "../pages/VerificationCodePhone";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
                            />}
                 />
                 <Route exact path="/login-phone" element={<LoginPhone/>} />
+                <Route exact path="/verification-code-phone" element={<VerificationCodePhone/>} />
             </Routes>
         </Layout>
     </BrowserRouter>

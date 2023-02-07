@@ -1,0 +1,10 @@
+.number-phone {
+    text-align: center;
+    border: #efefef solid 1px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.number-phone:hover {
+    background-color: #A7A7A7;
+}

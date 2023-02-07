@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import {ButtonCustomer} from "../components/ButtonCustomer";
 import '../styles/LoginPhone.css';
+import {Link} from "react-router-dom";
 const LoginPhone = () => {
     return (
         <>
@@ -17,12 +18,14 @@ const LoginPhone = () => {
                     <FontAwesomeIcon className="icon-phone" icon={faPhone} />
                     <label className="icon-phone-label">
                         +1
-                        <input type="text" />
                     </label>
+                    <input type="text" />
                 </div>
             </div>
             <div className="container-btn-login">
-                <ButtonCustomer textButton="Login" />
+                <Link to="/verification-code-phone" style={{ color: 'inherit', textDecoration: 'inherit' }}>
+                    <ButtonCustomer textButton="Login" />
+                </Link>
             </div>
         </>
     );

@@ -30,13 +30,19 @@
     border-bottom: #FFE031 1px solid;
     outline: none;
     font-size: 25px;
-    padding-left: 10px;
+    padding-left: 70px;
 }
 .icon-phone-label {
     color: #A7A7A7;
     font-size: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 315px;
 }
 .icon-phone {
+    position: absolute;
     margin-right: 5px;
     color: #A7A7A7;
+    left: 30px;
+    bottom: 320px;
 }

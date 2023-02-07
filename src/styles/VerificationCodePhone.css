@@ -1,0 +1,7 @@
+.inputs-verification input{
+    border-style: none;
+    outline: none;
+    border-bottom: #414141 1px solid;
+    width: 10px;
+    margin-right: 10px;
+}

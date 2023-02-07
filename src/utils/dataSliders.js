@@ -14,8 +14,22 @@ const imagesSlides = [
     },
     {
         image: slideThree,
-        text: 'We will deliver as soon as possible',
+        text: 'We will deliver as soon as possible kjkkjhkjhkjh jhkhkjhkjhkjhkjhkj',
         toText: '/slide-page-three'
     }
 ]
-export {imagesSlides}
+const numbers = [
+    {num: 1, ltr: ''},
+    {num: 2, ltr: 'abc'},
+    {num: 3, ltr: 'def'},
+    {num: 4, ltr: 'ghi'},
+    {num: 5, ltr: 'jkl'},
+    {num: 6, ltr: 'mno'},
+    {num: 7, ltr: 'pqrs'},
+    {num: 8, ltr: 'tuv'},
+    {num: 9, ltr: 'wxyz'},
+    {num: '', ltr: ''},
+    {num: 0, ltr: ''},
+    {num: '', ltr: ''},
+];
+export {imagesSlides, numbers}
