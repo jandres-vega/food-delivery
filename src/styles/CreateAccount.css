@@ -1,0 +1,46 @@
+.container-create-account {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #FFFEFA 0%, #FFE031 0%, #FFFEFA 0.01%, #FCFCFC 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-register-user {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+.container-register-user input{
+    outline: none;
+    border-style: none;
+    border-bottom: #A7A7A7 1px solid;
+    width: 80%;
+    margin: 10px;
+}
+.btn-sign-in-account {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+}
+.container-register-user h2{
+    margin: 10px;
+}
+.password-account {
+    position: relative;
+}
+.userName-account {
+    position: relative;
+    width: 100%;
+}
+.email-account {
+    position: relative;
+}
+.icon-check {
+    position: absolute;
+    right:50px;
+    bottom: 10px;
+}
+

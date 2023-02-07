@@ -6,6 +6,7 @@ import SlidePages from "../pages/SlidePages";
 import {imagesSlides} from '../utils/dataSliders';
 import LoginPhone from "../pages/LoginPhone";
 import {VerificationCodePhone} from "../pages/VerificationCodePhone";
+import {CreateAccount} from "../pages/CreateAccount";
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
                 />
                 <Route exact path="/login-phone" element={<LoginPhone/>} />
                 <Route exact path="/verification-code-phone" element={<VerificationCodePhone/>} />
+                <Route exact path="/create-account" element={<CreateAccount />} />
+                <Route path="*" element={<h1>Not Found</h1>} />
             </Routes>
         </Layout>
     </BrowserRouter>
